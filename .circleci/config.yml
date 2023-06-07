@@ -7,6 +7,6 @@ jobs:
     steps:
       - checkout
       - newman/newman-run:
-          collection: ./ERM Tests.postman_collection.json
-          environment: ./ERM.postman_environment.json
+          collection: .\ERM Tests.postman_collection.json
+          environment: .\ERM.postman_environment.json
           folder: "User Assignments"
