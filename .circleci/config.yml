@@ -7,6 +7,6 @@ jobs:
     steps:
       - checkout
       - newman/newman-run:
-          collection: C:\Sage\Repo\postman-api-testing\ERM Tests.postman_collection.json
-          environment: C:\Sage\Repo\postman-api-testing\ERM.postman_environment.json
-          folder: --folder "User Assignments"
+          collection: ./ERM Tests.postman_collection.json
+          environment: ./ERM.postman_environment.json
+          folder: "User Assignments"
